@@ -93,7 +93,11 @@ nav ul li a {
   display: flex;
   align-items: center;
 }
+button{
+  cursor: pointer;
+}
 .hamburgermenu svg {
+  cursor: pointer;
   color: #bc70f8;
 }
 .hero {
