@@ -4,8 +4,12 @@
   box-sizing: border-box;
 }
 a {
-  color: black;
+  color: #330656;
   text-decoration: none;
+  transition: all ease .4s;
+}
+a:hover{
+  color: #9D4CDC;
 }
 ul li {
   list-style-type: none;
