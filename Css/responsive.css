@@ -1,5 +1,65 @@
-@media only screen and (min-width: 410px) {
-    nav ul{
-        display: none;
-    }
+@media only screen and (min-width: 400px) {
+  nav ul {
+    display: none;
+  }
+}
+@media only screen and (min-width: 680px) {
+  .hero-box {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .my-bee {
+    width: 87px;
+    position: absolute;
+    right: 0;
+    top: 18px;
+  }
+  .my-rec {
+    width: 80px;
+    rotate: -20 deg;
+    position: absolute;
+    bottom: 110px;
+    right: 20px;
+  }
+  .section1 {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .play-img img {
+    min-width: 685px;
+  }
+  .cardbox {
+    gap: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .footerheader {
+    width: 700px;
+  }
+  .btn-ft {
+    flex-direction: row;
+  }
+  .orangee-btn {
+    width: 220px;
+  }
+  .white-btn {
+    width: 220px;
+  }
+
+}
+@media only screen and (min-width: 960px) {
+  .hamburgermenu {
+    display: none;
+  }
+  nav ul {
+    display: contents;
+  }
+    .img-box img{
+    width: 500px;
+    height: auto;
+  }
 }

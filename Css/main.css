@@ -70,12 +70,7 @@ header {
   line-height: 100%;
   color: #ff8a00;
 }
-nav ul {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  gap: 1.6rem;
-}
+
 nav ul li a {
   font-family: K2D;
   font-weight: 500;
@@ -122,12 +117,21 @@ button{
   right: 30px;
 }
 .hero-info {
-  width: 90%;
+  width: 390px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
 }
+.ul-nav{
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  gap: 1rem;
+}
+
 .hero-info h1 {
   font-family: Londrina Solid;
   font-weight: 400;
